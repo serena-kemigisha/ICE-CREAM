@@ -1,0 +1,81 @@
+.nav-bar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 100%;
+}
+.logo{
+  width: 2px;
+  height: 2px;
+  font-weight: 2px;
+  font-size: 2px;
+  color: white;
+  display: flex;
+  align-items: centre;
+  margin-right: 200px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly
+}
+li{
+  font-size: 15px;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+}
+.hero{
+  background: url(k.avif) no-repeat;
+  background-size: cover;
+  height: 500px;
+  min-width: 550px;
+  border-radius: 5%;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-section{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: gold;
+  justify-content: space-evenly;
+  padding: 4px;
+}
+.main{
+  border: gold 0px solid;
+  background-color: teal;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sub{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  text-align: centre;
+  border-radius: 5px;
+  margin: 10px;
+}
+.ice{
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+}
+button{
+  background-color: black;
+  color: white;
+  width: 60px;
+}
